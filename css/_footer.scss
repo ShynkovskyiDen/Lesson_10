@@ -1,0 +1,73 @@
+// Footer
+.footer {
+    @include flex(column, center, flex-start);
+    background-color: $main-color;
+    .category__block {
+        @include flex(row, center, flex-start);
+        padding: $content-padding;
+        width: 100%;
+        gap: 30px;
+        margin: 60px 0;
+        .category__item {
+            @include flex(column, center, flex-start);
+            width: 25%;
+            .category__heading {
+                font-size: 1rem;
+                font-weight: 700;
+                width: 40%;
+                padding-bottom: 30px;
+                border-bottom: 1px solid $primary-color;
+            }
+            .category__list {
+                padding-top: 25px;
+                font-size: 0.75rem;
+                font-weight: 400;
+                .category__link {
+                    display: inline-block;
+                    color: $secondary-color;
+                    padding: 5px 0;
+                }
+            }
+        }
+    }
+    .contacts__block {
+        @include flex(row, space-between, center);
+        padding: $content-padding;
+        width: 100%;
+        border-top: 1px solid $primary-color;
+        .contacts__item {
+            .messagers__item {
+                @include flex(row, center, flex-start);
+                gap: 20px;
+            }
+            padding: 40px 0;
+            .call {
+                gap: 40px;
+            }
+            .call__link {
+                font-size: 0.9rem;
+                font-weight: 700;
+                line-height: normal;
+                color: $additional-color;
+                font-style: normal;
+            }
+            .call__btn {
+                border-color: $accent-color;
+            }
+        }
+    }
+    .rights__block {
+        @include flex(row, space-between, center);
+        padding: $content-padding;
+        width: 100%;
+        background-color: $primary-color;
+        .rights__item {
+            padding: 25px 0;
+            .rights__text {
+                color: $secondary-color;
+                font-size: 0.75rem;
+                font-weight: 400;
+            }
+        }
+    }
+}

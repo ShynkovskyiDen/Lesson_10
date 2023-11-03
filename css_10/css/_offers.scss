@@ -1,0 +1,56 @@
+.offers {
+    padding: 80px 15%;
+}
+
+.offers>h3 {
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.goods {
+    gap: 30px;
+    
+    .goods__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 25px;
+        background-color: $main-color;
+        max-width: 225px;
+        
+        .item__img {
+            width: 125px;
+        }
+        
+        .item__name {
+            color: #333;
+            text-align: center;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+        }
+        
+        .item__price {
+            color: #000;
+            text-align: center;
+            font-size: 21px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1.05px;
+        }
+        
+        .item__btn {
+            border-color: $accent-color;
+            background-color: $accent-color;
+            color: $main-color;
+            padding: 9px 53px;
+            text-transform: capitalize;
+        }
+    }
+}

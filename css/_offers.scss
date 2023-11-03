@@ -1,0 +1,102 @@
+// Offers
+.offers {
+    @include flex(column, center, flex-start);
+    padding: $content-padding;
+    margin: 80px 0;
+    .offers__heading {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 38px;
+    }
+    .goods {
+        @include flex(row, center, center);
+        gap: 30px;
+    }
+    .goods__item {
+        @include flex(column, center, center);
+        background-color: $main-color;
+        .product {
+            color: $additional-color;
+        }
+        .goods__img {
+            padding: 25px;
+        }
+        .item-name {
+            font-size: 0.875rem;
+            font-weight: 400;
+            padding: 20px 35px;
+            text-align: center;
+        }
+        .item__price {
+            font-size: 1.31rem;
+            font-weight: 700;
+        }
+        .item-btn {
+            padding: 9px 53px 9px 51px;
+            margin: 20px 0 25px;
+            background-color: $accent-color;
+            border-color: $accent-color;
+            color: $main-color;
+        }
+    }
+    .bonus__block {
+        @include flex(row, center, center);
+        width: 100%;
+        margin: 100px 0;
+        gap: 30px;
+        .bonus__item {
+            @include flex(row, space-between, center);
+            background-color: $accent-color;
+            width: 100%;
+            padding: 35px 40px;
+            .bonus__description {
+                @include flex(column, center, flex-start);
+                .bonus__heading {
+                    font-size: 1.125rem;
+                    font-weight: 700;
+                    color: $main-color;
+                }
+                .bonus__info {
+                    font-size: 0.875rem;
+                    font-weight: 400;
+                    margin: 25px 0;
+                    color: $main-color;
+                    width: 60%;
+                }
+                .button__email {
+                    border-color: $main-color;
+                    border-radius: 30px;
+                    width: 80%;
+                    padding: 9px 25px;
+                }
+                .button__map {
+                    border: 2px solid $main-color;
+                    border-radius: 30px;
+                    padding: 9px 53px;
+                    color: $main-color;
+                    background-color: $accent-color;
+                }
+            }
+            .bonus__img {
+                width: 30%;
+            }
+        }
+    }
+    .advert__block {
+        @include flex(row, center, center);
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 80px;
+        .advert__item {
+            width: 25%;
+            padding: 35px 67px;
+            background-color: $main-color;
+            border: 1px solid $primary-color;
+        }
+    }
+}
+
+
+
+
+
