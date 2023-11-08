@@ -93,11 +93,12 @@
   }
   .sides .logo {
     float: left;
+    margin-right: 20px;
   }
   .sides .logo__name {
     font-size: 2.25rem;
     font-weight: 700;
-    line-height: 42px;
+    line-height: 80px;
     letter-spacing: 0.1em;
     text-align: left;
     color: #F13C6E;
