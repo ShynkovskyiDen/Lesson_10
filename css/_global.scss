@@ -28,6 +28,11 @@ body {
     border: 2px solid;
     border-radius: 40px;
     padding: 12px 26px;
+    background-color: $main-color;
+    cursor: pointer;
+}
+.btn:hover {
+    font-weight: 600;
 }
 
 .btn.btn-link {

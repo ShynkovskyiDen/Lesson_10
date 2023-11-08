@@ -27,6 +27,10 @@
                     color: $secondary-color;
                     padding: 5px 0;
                 }
+                .category__link:hover {
+                    text-decoration: underline;
+                    color: $additional-color;
+                }
             }
         }
     }
@@ -50,6 +54,9 @@
                 line-height: normal;
                 color: $additional-color;
                 font-style: normal;
+            }
+            .call__link:hover {
+                text-decoration: underline;
             }
             .call__btn {
                 border-color: $accent-color;

@@ -22,6 +22,12 @@ body {
   border: 2px solid;
   border-radius: 40px;
   padding: 12px 26px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  font-weight: 600;
 }
 
 .btn.btn-link {
@@ -93,6 +99,9 @@ body {
   line-height: normal;
   color: #000;
   font-style: normal;
+}
+.sides .call__link:hover {
+  text-decoration: underline;
 }
 .sides .call__btn {
   border-color: #F13C6E;
@@ -186,6 +195,9 @@ img.banner {
   border-color: #F13C6E;
   color: #fff;
 }
+.offers .goods__item:hover .goods__img {
+  opacity: 0.5;
+}
 .offers .bonus__block {
   display: flex;
   flex-direction: row;
@@ -235,6 +247,9 @@ img.banner {
   color: #fff;
   background-color: #F13C6E;
 }
+.offers .bonus__block .bonus__item .bonus__description .button__map:hover {
+  font-weight: 600;
+}
 .offers .bonus__block .bonus__item .bonus__img {
   width: 30%;
 }
@@ -252,6 +267,9 @@ img.banner {
   padding: 35px 67px;
   background-color: #fff;
   border: 1px solid #efefef;
+}
+.offers .advert__block .advert__item:hover {
+  opacity: 0.6;
 }
 
 .footer {
@@ -295,6 +313,10 @@ img.banner {
   color: #828282;
   padding: 5px 0;
 }
+.footer .category__block .category__item .category__list .category__link:hover {
+  text-decoration: underline;
+  color: #000;
+}
 .footer .contacts__block {
   display: flex;
   flex-direction: row;
@@ -323,6 +345,9 @@ img.banner {
   line-height: normal;
   color: #000;
   font-style: normal;
+}
+.footer .contacts__block .contacts__item .call__link:hover {
+  text-decoration: underline;
 }
 .footer .contacts__block .contacts__item .call__btn {
   border-color: #F13C6E;

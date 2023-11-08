@@ -67,6 +67,9 @@
         color: $additional-color;
         font-style: normal;
     }
+    .call__link:hover {
+        text-decoration: underline;
+    }
     .call__btn {
         border-color: $accent-color;
     }
